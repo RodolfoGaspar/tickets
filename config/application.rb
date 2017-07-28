@@ -23,6 +23,6 @@ module Tickets
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
 
-    # config.i18n.default_locale = 'pt-BR'
+    config.i18n.default_locale = 'pt-BR'
   end
 end
